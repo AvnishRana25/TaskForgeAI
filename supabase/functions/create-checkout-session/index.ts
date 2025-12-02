@@ -94,8 +94,8 @@ serve(async (req) => {
           quantity: 1,
         },
       ],
-      success_url: `${appPublicUrl}/tasks/${taskId}?payment=success`,
-      cancel_url: `${appPublicUrl}/tasks/${taskId}?payment=cancelled`,
+      success_url: `${appPublicUrl}/task/${taskId}?payment=success`,
+      cancel_url: `${appPublicUrl}/task/${taskId}?payment=cancelled`,
       metadata: {
         task_id: taskId,
         user_id: userId,
