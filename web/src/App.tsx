@@ -30,7 +30,7 @@ function App() {
             }
           />
           <Route
-            path="/tasks/new"
+            path="/task/new"
             element={
               <ProtectedRoute>
                 <NewTaskPage />
@@ -38,7 +38,7 @@ function App() {
             }
           />
           <Route
-            path="/tasks/:id"
+            path="/task/:id"
             element={
               <ProtectedRoute>
                 <TaskDetailPage />
